@@ -1,2 +1,2 @@
-# Constoga_Python
+# Conestoga_Python
 A collection of assignments for the PROG1840 Course
