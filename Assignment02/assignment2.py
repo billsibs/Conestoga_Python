@@ -11,18 +11,18 @@ filename = "aerobic.txt"
 
 #Calculate Max heart rate
 def max_heart_rate(age):
-	mhr = (220 - age)
-	return mhr
+    mhr = (220 - age)
+    return mhr
 
 #Calculate Minimum target heart rate
 def min_target_heart_rate(age):
-	min_thr = (max_heart_rate(age) * 0.5)
-	return min_thr
+    min_thr = (max_heart_rate(age) * 0.5)
+    return min_thr
 
 #Calculate Maximum target heart rate
 def max_target_heart_rate(age):
-	max_thr = (max_heart_rate(age) * 0.85)
-	return max_thr
+    max_thr = (max_heart_rate(age) * 0.85)
+    return max_thr
 
 #Function to write to file.
 def write_file(input, file):
