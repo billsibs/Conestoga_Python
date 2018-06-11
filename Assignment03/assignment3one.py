@@ -22,3 +22,5 @@ num_file = open(filename,'w')
 for n in range(0, int(gen_count)):
 	num_file.write(str(randrange(1,1000)) + "\n")
 num_file.close
+
+print(f"Random numbers outputted to {filename}")
