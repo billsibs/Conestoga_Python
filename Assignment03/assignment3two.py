@@ -16,15 +16,20 @@ num_file = open(input_file)
 for number in num_file:
 	temp = int(number) % 2
 	if temp == 0:
-		print(number)
+		#print(number) #Debug line
 		sum_nums = sum_nums + int(number)
+
 #Close input file
 num_file.close()
+
 #Open output file
 out_file = open(output_file, 'w')
+
 #Print message and then write to output file
 message = f'The sum of the even numbers in {input_file} is: {sum_nums}\n'
-#print(message) #Debug line
+print(message)
+print(f"Answer written to {output_file}\n")
 out_file.write(message)
+
 #Close output file
 out_file.close()
