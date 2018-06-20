@@ -18,6 +18,6 @@ class FileWriter():
         self.file = filename
 
     def scribble(self,some_text):
-	    f = open(self.file,'a')
+        f = open(self.file,'a')
         f.write(some_text)
         f.close()
